@@ -25,4 +25,7 @@ export class NavbarComponent {
   navigateInformazioni(){
     this.router.navigate(['Informazione']);
   }
+  navigateHome(){
+    this.router.navigate(['/'])
+  }
 }
